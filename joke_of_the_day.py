@@ -13,7 +13,7 @@ else:
     
 api = APIClient("a855d7a169e484e0bdc91b11d6660327")
 request = SendEmailRequest(
-    to="chrisiglesias@lgcypower.com",
+    to="chrisiglesias@lgcypower.com,dondufour@lgcypower.com",
     transactional_message_id="2",
     identifiers={
         "id": "1660324645"
